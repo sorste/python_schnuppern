@@ -77,12 +77,90 @@ alter = input("Wie alt bist du?")
 print("Du bist", alter, "Jahre alt.")
 ```
 >Kleiner Tipp; Du kannst auch mehrere "input" abfragen nacheinander machen.
+
 Schreibe nun ein Programm das dich nach deinem Namen und deinem Alter fragt und dieses dann ausgibt. Die Ausgabe sollte ungefähr so aussehen: "Hallo Max, du bist 18 Jahre alt."
 
 ### Aufgabe 2.1;
 
-Erweiter das Programm nun so das du auch nach deiner Adresse, deiner Telefonummer und nach deinem Lieblingsspiel gefragt wirst. 
+Erweiter das Programm nun so das du auch nach deiner Adresse, deiner Telefonummer und nach deinem Lieblingsspiel gefragt wirst.  
+  
 Die Ausgabe sollte ungefähr so aussehen: "Hallo Max, du bist 18 Jahre alt. Du wohnst in der Musterstrasse 1, deine Telefonummer ist 123 456 78 90 und dein Lieblingsspiel ist Minecraft.
+
+## Aufgabe 3; Zufälligkeit
+
+In Python können z.B. auch zufällige Zahlen ausgegeben werden.
+
+Damit dies funktioniert muss in der obersten Zeile das "random-Modul" aktiviert werden, dies wird folgendermasen gemacht:
+```python
+import random
+```
+
+Ein Beispiel wäre hier:
+
+```python
+import random
+zahl = random.randint(1, 10)
+print(zahl)
+```
+
+Dieser Code gibt eine zufällige Zahl aus.
+
+Schreibe nun ein Programm das einen Würfel simuliert. Die Ausgabe sollte ungefährt so aussehen: Die gewürfelte Zahl ist 7.
+
+## Aufgabe 4; Bedingungen
+
+
+In Python wird die if-Anweisung verwendet, um den Programmablauf anhand einer Bedingung zu steuern. Die Syntax einer if-Anweisung ist wie folgt:
+
+```python
+if Bedingung:
+    Codeblock
+```
+
+Wenn die Bedingung wahr ist, wird der Codeblock ausgeführt. Wenn die Bedingung nicht wahr ist, wird der Codeblock nicht ausgeführt.
+
+#### Beispiel:
+
+```python
+zahl = 10
+
+if zahl > 5:
+    print("Die Zahl ist größer als 5.")
+```
+
+Auch ein "==" geht hier. 
+
+#### Beispiel:
+
+```python
+zahl = 10
+
+if zahl == 5:
+    print("Die Zahl ist nicht 10.")
+```
+```python
+zahl = 10
+
+if zahl == 10:
+    print("Die Zahl ist 10.")
+```
+
+Dies kann auch mit inputs verbunden werden.
+
+Verknüpfe dies nun mit dem vorher gelerntet. Erstelle ein Programm das dich etwas mit Zahlen fragt. 
+
+#### Beispiel: 
+Wenn du über 18 Jahre alt bist, soll es ausgeben: "Du bist alt genug"  
+
+Du kannst dir auch etwas eigenes ausdenken.
+
+
+### Aufgabe 5; Eigenständig
+
+Super! Du hast nun deine ersten Anfänge in der Welt des Programmierens gemacht. Versuche nun ein eigenes kleines Script zu schreiben.  
+
+Melde dich bei einem Mitarbeiter wenn du fertig bist.
+
 
 
 

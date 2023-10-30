@@ -43,7 +43,9 @@ Division: /
 
 #### Bespiel:
 
-`print(1 + 2)`
+```python
+print(1 + 2)
+```
 
 > Der Befehl "print" gibt eine Ausgabe auf dem Bildschirm aus.
 
@@ -56,16 +58,33 @@ Subtraktion: 10 - 5
 Multiplikation: 5 * 2  
 Division: 10 / 2 
 
-## Aufgabe 2; Rechen mit Python inkl. Inputs
+## Aufgabe 2; Eingaben mit Python
 
 Die Input-Funktion in Python nimmt eine Eingabe vom Benutzer entgegen und gibt sie als Text zurück.
 
 #### Beispiel:
 
-`name = input("Wie ist dein Name?"  
-print("Hallo,", name"`
-
+```python
+name = input("Wie ist dein Name?")"  
+print("Hallo,", name)
+```
 > "name" ist eine Variable. Mit input wird man nach einer Eingabe gefragt, diese wird dann in der Variable "name" gespeichert. Rufe ich diese Variable nun mit der "print" funktion auf, gibt es mir den gespeicherten Namen zurück.
+
+Die Input-Funktion kann auch verwendet werden, um Zahlen, Zeichenfolgen oder andere Datentypen von Benutzern entgegenzunehmen.
+
+```python
+alter = input("Wie alt bist du?")
+print("Du bist", alter, "Jahre alt.")
+```
+>Kleiner Tipp; Du kannst auch mehrere "input" abfragen nacheinander machen.
+Schreibe nun ein Programm das dich nach deinem Namen und deinem Alter fragt und dieses dann ausgibt. Die Ausgabe sollte ungefähr so aussehen: "Hallo Max, du bist 18 Jahre alt."
+
+### Aufgabe 2.1;
+
+Erweiter das Programm nun so das du auch nach deiner Adresse, deiner Telefonummer und nach deinem Lieblingsspiel gefragt wirst. 
+Die Ausgabe sollte ungefähr so aussehen: "Hallo Max, du bist 18 Jahre alt. Du wohnst in der Musterstrasse 1, deine Telefonummer ist 123 456 78 90 und dein Lieblingsspiel ist Minecraft.
+
+
 
 
 
